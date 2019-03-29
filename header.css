@@ -20,3 +20,16 @@ a {
   text-decoration: none;
   margin-right: 60px;
 }
+button {
+  width: 199px;
+  height: 60px;
+  font-family: Arial, "Roboro", sans-serif;
+  font-size: 20px;
+  color: #fff;
+  background-color: #252c41;
+  padding: 17px 60px 21px 61px;
+  float: right;
+  margin-right: 280px;
+  border: none;
+  cursor: pointer;
+}
