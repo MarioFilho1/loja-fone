@@ -24,9 +24,10 @@
   border: 2px solid #fff;
   box-sizing: border-box;
 }
-dd {
+/* .button-description {
   display: inline-block;
-}
+  margin-top: 9px;
+} */
 
 /* .button {
   width: 199px;
