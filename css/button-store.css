@@ -1,8 +1,4 @@
 .button-store {
-  /* margin-right: ;
-  position: relative;
-  top: 85%;
-  left: 37%; */
   width: 199px;
   text-align: center;
   background-color: #252c41;
@@ -23,11 +19,12 @@
   background-color: transparent;
   border: 2px solid #fff;
   box-sizing: border-box;
+  margin-right: 38px;
 }
-/* .button-description {
+.button-description {
   display: inline-block;
-  margin-top: 9px;
-} */
+  margin-top: 98px;
+}
 
 /* .button {
   width: 199px;
