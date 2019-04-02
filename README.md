@@ -100,6 +100,31 @@ No exemplo acima o seletor `h1` por ser filho da do `header` herda naturalmente 
 
 Forma reduzida de colocar o padding
 
-/_ top |left-right|bottom _/
+```
+_ top | left-right | bottom _
 
 padding: 55px 60px 95px;
+```
+
+- `Clear` - A propriedade limpa o contexto do elemento afetado pelo uso do float. Exemplo. Ao aplicarmos um float no _elem1_, como há uma mudança no contexto caso tenhamos um _elem2_ que esteja abaixo, ele poderá subir e ficar ao seu lado. Usando o clear no _elem2_, ele retornará para posição de origem. Teremos que seta o clear no _elem2_ com o valor referente a posição do _elem1_. Ex. Se o _elem2_ que subiu, está a direita do elemento _elem1_, teremos que seta-lo com o `clear:left;`. Assim dizemos ao _elem2_ que caso tenha algum elemento flutuando ao seu lado, fique abaixo dele. Os valores do clear podem ser left, right e both.
+
+- `Display` - Algumas tags tem o comportamentos que diferem umas das outras e o browser é quem define o padrão delas. Ex. A tag `a` tem o comportamento inline, isso quer dizer que elas serão exibidas no seu navegador uma ao lado da outra. A tag `a` por ter o esse comportamento, não podem ter o seu widht e heigth especificados. Caso tenhamos a nessecidade de especificar o tamanho e comprimento teremos que mudar o comportamento da tag com o valor na propriedade display para `block ou inline-block`. Se quizermos setar o comprimento e largura dos elementos envoltos nas tags `a`, mas que permaneçam umas ao lado das outras, teremos que usar o valor `inline-block`, caso precisemos que elas fiquem uma abaixo das outras podemos utilizar o valor `block`.
+
+- `line-heigth` -
+
+- `Position: absolut;`
+
+Caracteristicas:
+
+- Cria um novo contexto
+- O que define o sua largura e altura, é o conteúdo
+- O elemento pode ser movido pelos valores `top, bottom, left, rignt`.
+
+Ao utilizar a medida `%` no posicionamento do elemento note que o que vai ser o que vai ser tomado como base para o posicionamento será a extremidade do elemento e não o seu centro, com isso se quisermos alinhar o centro do elemento teremos que utilizar a propriedade `transform: translate` com o eixo X(horizontal) e Y(vertical).
+Ex.
+
+```
+transfom: translateX(-50%) translateY(-50%);
+```
+
+Se o valor do eixo `X` for negativo o elemento se deslocará para esquerda e positivo para direita, já no eixo `y` o valor sendo negativo, o deslocamento será para cima e positivo para baixo.

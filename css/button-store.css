@@ -1,0 +1,42 @@
+.button-store {
+  /* margin-right: ;
+  position: relative;
+  top: 85%;
+  left: 37%; */
+  width: 199px;
+  text-align: center;
+  background-color: #252c41;
+  line-height: 60px;
+  color: #fff;
+  font-family: Arial, "Roboro", sans-serif;
+  font-size: 20px;
+  height: 60px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border: none;
+}
+
+.button-store.-second {
+  width: 218px;
+  line-height: 56px;
+  background-color: transparent;
+  border: 2px solid #fff;
+  box-sizing: border-box;
+}
+dd {
+  display: inline-block;
+}
+
+/* .button {
+  width: 199px;
+  height: 60px;
+  font-family: Arial, "Roboro", sans-serif;
+  font-size: 20px;
+  color: #fff;
+  background-color: #252c41;
+  padding: 17px 60px 21px 61px;
+  float: right;
+  margin-right: 280px;
+  box-sizing: border-box;
+} */
