@@ -16,7 +16,7 @@
 .button-store.-second {
   width: 218px;
   line-height: 56px;
-  /* background-color: transparent; */
+  background-color: transparent;
   border: 2px solid #fff;
   box-sizing: border-box;
   margin-right: 38px;

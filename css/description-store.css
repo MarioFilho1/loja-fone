@@ -35,10 +35,10 @@
   font-size: 20px;
   text-decoration: none;
 }
-
-img {
+.image-store {
   position: absolute;
-  border-radius: 50%;
-  bottom: 0px;
+  top: 0px;
   left: -40px;
+  padding-top: 123px;
+  margin-right: 200px;
 }
