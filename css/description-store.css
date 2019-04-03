@@ -3,9 +3,10 @@
   font-family: "Roboto", Arial, sans-serif;
   font-size: 20px;
   position: relative;
+  background-color: #e24647;
 }
 .description-store-list {
-  position: absolute;
+  float: right;
   right: 1%;
 }
 .description-store-title {
@@ -33,5 +34,11 @@
   color: black;
   font-size: 20px;
   text-decoration: none;
-  margin-bottom: px;
+}
+
+img {
+  position: absolute;
+  border-radius: 50%;
+  bottom: 0px;
+  left: -40px;
 }
