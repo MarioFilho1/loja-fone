@@ -1,3 +1,7 @@
+body {
+  width: 1600px;
+  height: 965px;
+}
 .container-store {
   background-color: #e24647;
   width: 80%;
