@@ -13,7 +13,7 @@
   vertical-align: middle;
   margin-right: 314px;
 }
-/* .header-store > .search {
+.header-store > .search {
   font-size: 20px;
   font-family: Arial, "Roboro", sans-serif;
   display: inline-block;
@@ -21,7 +21,7 @@
   border-bottom: 1px solid #fff;
   padding-bottom: 8px;
   width: 358px;
-} */
+}
 .header-store > .navigation {
   font-size: 21px;
   font-family: "Segoe UI", "Roboto", sans-serif;
