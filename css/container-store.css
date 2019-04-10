@@ -1,12 +1,7 @@
-body {
-  width: 1600px;
-  height: 965px;
-}
 .container-store {
   background-color: #e24647;
-  width: 80%;
-  height: 90%;
-  padding: 55px 60px 50px;
+  width: 90%;
+  padding: 55px 60px 95px 0;
   position: absolute;
   left: 50%;
   top: 50%;

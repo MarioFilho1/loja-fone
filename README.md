@@ -62,8 +62,8 @@ a {
 Obs.
 
 - O float cria um novo contexto -
-- Nunca esconde um conteúdo -
-- Ao aplicar o float em um elemento filho, caso o seu tamanho (width e height) não sejam especificados, será definido pelo tamanho do elemento. No exemplo acima se colocarmos o float no h1 o tamanho do elemento será dimensionado para o tamanho do `nav` pois como o `h1` está em um novo contexto, ele toma como base o `nav`. O elemento pai cresce de acordo com o tamanho do/dos elementos filho que estão dentro dele, caso aplique o float nos dois elementos filho, como não foi definido seu tamanho e devido aos elementos filho estarem em um novo contexto o elemento pai não aparecerá, pois não tem ninguém para tomar como base.
+- Nunca esconde um conteúdo do elemento -
+- Ao aplicar o float em um elemento filho, caso o seu tamanho (width e height) não sejam especificados, será definido pelo tamanho do conteúdo do elemento. No exemplo acima se colocarmos o float no h1 o tamanho do elemento será dimensionado para o tamanho do `nav` pois como o `h1` está em um novo contexto, ele toma como base o `nav`. O elemento pai cresce de acordo com o tamanho do/dos elementos filho que estão dentro dele, caso aplique o float nos dois elementos filho, como não foi definido seu tamanho e devido aos elementos filho estarem em um novo contexto o elemento pai não aparecerá, pois não tem ninguém para tomar como base.
 
 ```
 overflor: hidden
@@ -106,13 +106,26 @@ _ top | left-right | bottom _
 padding: 55px 60px 95px;
 ```
 
+- Padding - Utilizado quando queremos um respiro interno, espaçamento do elemento e a estremidade.
+
+```
+Ex. Temos um quadrado e queremos que o conteúdo desse elemento se afaste das extremidades
+```
+
+- Margin - Utilizado quando queremos um respiro externo, espaçamento entre as extremidades de dois elementos.
+
+```
+Ex. Temos dois quadrados e queremos que eles se afastem um do outro.
+```
+
 - `Clear` - A propriedade limpa o contexto do elemento afetado pelo uso do float. Exemplo. Ao aplicarmos um float no _elem1_, como há uma mudança no contexto caso tenhamos um _elem2_ que esteja abaixo, ele poderá subir e ficar ao seu lado. Usando o clear no _elem2_, ele retornará para posição de origem. Teremos que seta o clear no _elem2_ com o valor referente a posição do _elem1_. Ex. Se o _elem2_ que subiu, está a direita do elemento _elem1_, teremos que seta-lo com o `clear:left;`. Assim dizemos ao _elem2_ que caso tenha algum elemento flutuando ao seu lado, fique abaixo dele. Os valores do clear podem ser left, right e both.
 
 - `Display` - Algumas tags tem o comportamentos que diferem umas das outras e o browser é quem define o padrão delas. Ex. A tag `a` tem o comportamento inline, isso quer dizer que elas serão exibidas no seu navegador uma ao lado da outra. A tag `a` por ter o esse comportamento, não podem ter o seu widht e heigth especificados. Caso tenhamos a nessecidade de especificar o tamanho e comprimento teremos que mudar o comportamento da tag com o valor na propriedade display para `block ou inline-block`. Se quizermos setar o comprimento e largura dos elementos envoltos nas tags `a`, mas que permaneçam umas ao lado das outras, teremos que usar o valor `inline-block`, caso precisemos que elas fiquem uma abaixo das outras podemos utilizar o valor `block`.
+  O que define o tamanho do elemento `inline` e `inline-block` caso não tenha sido definido, é o tamanho do seu conteúdo. Esses dois valores tem o comportamento de palavra.
 
-- `line-heigth` -
+* `line-heigth` -
 
-- `Position: absolut;`
+* `Position: absolute;`
 
 Caracteristicas:
 
