@@ -12,8 +12,9 @@
   text-decoration: none;
   display: inline-block;
   border: none;
-  /* position: relative;
-  left: 705px; */
+  position: relative;
+  left: 700px;
+  margin-top: 98px;
 }
 
 .button-store.-second {
@@ -23,6 +24,7 @@
   border: 2px solid #fff;
   margin-right: 38px;
 }
+
 /* .button-store button,
 .button-store a {
   color: inherit;
