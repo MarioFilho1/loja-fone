@@ -21,3 +21,11 @@
   margin-right: 38px;
   cursor: pointer;
 }
+.button-store:hover {
+  background-color: #fff;
+  color: #252c41;
+}
+.button-store.-second:hover {
+  background-color: #fff;
+  color: #e24647;
+}
