@@ -6,10 +6,11 @@
   font-size: 25px;
   margin-bottom: 50px;
 }
-/* .description-product .item .star {
-  margin-right: 9px; 
-}*/
-.description-product > .item.-star {
+.description-product .item .star {
+  margin-right: 9px;
+  cursor: pointer;
+}
+.description-product > .item.-starlast {
   margin-bottom: 10px;
 }
 /* Esse seletor aplica uma margem no elemento logo abaixo do item star
