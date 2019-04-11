@@ -2,4 +2,10 @@
   width: 554px;
   display: inline-block;
   vertical-align: middle;
+  position: relative;
+}
+.wrap-product > .button {
+  position: absolute;
+  bottom: 0;
+  transform: translateY(calc(100% + 98px));
 }
