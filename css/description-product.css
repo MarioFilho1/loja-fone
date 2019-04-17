@@ -6,10 +6,12 @@
   font-size: 25px;
   margin-bottom: 50px;
 }
-.description-product > .item.heart {
+.description-product > .item.-heart {
   position: absolute;
-  left: -80px;
-  transform: translateY(-68px);
+  transform: translateX(-100%);
+  left: -47px;
+  top: 8px;
+  cursor: pointer;
 }
 .description-product .item .star {
   margin-right: 9px;

@@ -141,3 +141,35 @@ transfom: translateX(-50%) translateY(-50%);
 ```
 
 Se o valor do eixo `X` for negativo o elemento se deslocará para esquerda e positivo para direita, já no eixo `y` o valor sendo negativo, o deslocamento será para cima e positivo para baixo.
+
+- `Peseudo-Classe` - Quando a acão determinada pelo usuário passa a existir a classe é ativada pelo browser e passa a produzir os efeitos que foram descritos nela e quando cessa a ação a classe desaparece deixando de produzir os efeitos.
+
+Abaixo algumas pseudo-classes:
+
+- `:hover` - É considerada uma pseudo-classe, pois quando o mouse é colocado em cima do elemento que contém o hover o browser ativa a classe e quando o cursor é retirado do elemento a classe é desativada.
+
+- `:active` - É ativada quando o elemento é clicado.
+- `:focus` - É ativada quando o elemento é selecionado através do tab.
+  Ex.
+
+```
+.button-store:hover,
+.button-store:focus {
+  background-color: #fff;
+  color: #e24647;
+}
+
+.button-store:active {
+  transform: scale(0.98);
+}
+```
+
+- `transition` - Atributo que faz uma transição(mudança), ela fica observando se o elemento tem alguma mudança em alguma propriedade, caso tenha, ela faz a transição(animação) de um ponto para outro. Utilizado com a propriedade `hover` quando o mouse for colocado em cima do elemento haverá a transição.Ex. pode acontecer a mudança da tonalidade de uma cor para outra.
+
+Ex. `transition: all 200ms linear;` - Vai analisar qualquer propriedade que tenha alguma alteração e irá aplicar um tempo de 200ms na transição.
+
+Ex. `transition: backgroud-color 1s linear, color 2s linear` - Nesse caso a propriedade que sofrerá alteração será a cor de fundo e a cor do texto. O tempo de transição de uma cor para a outra será de 1 e 2 segundos para o fundo e a cor respectivamente. Lembrando que você pode ir até o console e manipular a curva de bazier.
+
+# UX
+
+- Affordance - Diz-se que um elemento tem um bom affordance quando ele for fácil de usar e intuitivo.
