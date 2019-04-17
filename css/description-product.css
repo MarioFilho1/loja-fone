@@ -16,14 +16,14 @@
 .description-product > .item.-heart:hover {
   transform: scale(1.2);
 }
-.description-product .item .star {
+.description-product .starlast {
   margin-right: 9px;
   cursor: pointer;
 }
-.description-product .item .star:hover {
-  transform: scale(1.3);
+.description-product .starlast:hover {
+  transform: scale(1.2);
 }
-.description-product > .item.-starlast {
+.description-product > .item.-star {
   margin-bottom: 10px;
 }
 /* Esse seletor aplica uma margem no elemento logo abaixo do item star
@@ -35,7 +35,7 @@ O +.item indica que é o seletor item abaixo  */
   font-size: 20px;
   margin-bottom: 28px;
 }
-.description-product .item.-info {
+.description-product > .item.-info {
   width: 190px;
   text-align: right;
 }
