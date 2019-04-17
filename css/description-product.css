@@ -8,14 +8,20 @@
 }
 .description-product > .item.-heart {
   position: absolute;
-  transform: translateX(-100%);
-  left: -47px;
+  /* transform: translateX(-100%); */
+  left: -80px;
   top: 8px;
   cursor: pointer;
+}
+.description-product > .item.-heart:hover {
+  transform: scale(1.2);
 }
 .description-product .item .star {
   margin-right: 9px;
   cursor: pointer;
+}
+.description-product .item .star:hover {
+  transform: scale(1.3);
 }
 .description-product > .item.-starlast {
   margin-bottom: 10px;

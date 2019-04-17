@@ -32,6 +32,6 @@
   background-color: #fff;
   color: #e24647;
 }
-.button-store:active {
+.button-store.-second:active {
   transform: scale(0.98);
 }
