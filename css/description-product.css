@@ -5,27 +5,30 @@
 .description-product > .title {
   font-size: 25px;
   margin-bottom: 50px;
+  line-height: 30px;
 }
 .description-product > .item.-heart {
   position: absolute;
-  /* transform: translateX(-100%); */
-  left: -80px;
+  transform: translateX(-100%);
+  left: -47px;
   top: 8px;
   cursor: pointer;
 }
-.description-product > .item.-heart:hover {
-  transform: scale(1.2);
-}
-.description-product .starlast {
-  margin-right: 9px;
-  cursor: pointer;
-}
-.description-product .starlast:hover {
-  transform: scale(1.2);
-}
 .description-product > .item.-star {
   margin-bottom: 10px;
+  cursor: pointer;
 }
+/* Coloca uma margem entre as estrelas */
+.description-product > .item.-star .icon {
+  margin-right: 4.05px;
+}
+.description-product .icon {
+  transition: 100ms transform linear;
+}
+.description-product .icon:hover {
+  transform: scale(1.2);
+}
+
 /* Esse seletor aplica uma margem no elemento logo abaixo do item star
 O +.item indica que é o seletor item abaixo  */
 .description-product > .item.-star + .item {
