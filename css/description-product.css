@@ -61,3 +61,30 @@ O +.item indica que é o seletor item abaixo  */
   color: inherit;
   text-decoration: none;
 }
+@media (max-width: 1318px) {
+  .description-product > .item.-heart {
+    left: -20px;
+  }
+}
+@media (max-width: 1155px) {
+  .description-product > .item.-heart {
+    left: 297px;
+  }
+}
+@media (max-width: 530px) {
+  .description-product > .title {
+    font-size: 22px;
+  }
+  .description-product > .item {
+    font-size: 18px;
+  }
+  .description-product > .text {
+    font-size: 16px;
+  }
+  .description-product .icon {
+    transform: scale(0.9);
+  }
+  .description-product > .item.-heart {
+    left: 270px;
+  }
+}

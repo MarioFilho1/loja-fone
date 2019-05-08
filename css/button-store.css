@@ -35,3 +35,61 @@
 .button-store.-second:active {
   transform: scale(0.98);
 }
+@media (max-width: 530px) {
+  .button-store.-second {
+    margin-right: 28px;
+  }
+  .button-store {
+    width: 182px;
+    font-size: 98%;
+  }
+  .button-store.-second {
+    width: 200px;
+  }
+}
+@media (max-width: 470px) {
+  .button-store.-second {
+    margin-right: 10px;
+  }
+ .button-store {
+    width: 170px;
+    font-size: 96%;
+  }
+  .button-store.-second {
+    width: 190px;
+}
+@media (max-width: 435px) {
+  .button-store {
+    width: 150px;
+    font-size: 94%;
+  }
+  .button-store.-second {
+    width: 170px;
+  }
+}
+@media (max-width: 400px) {
+  .button-store {
+    width: 130px;
+    font-size: 80%;
+    height: 50px;
+    line-height: 50px;
+   }
+  .button-store.-second {
+    width: 150px;
+    line-height: 46px;
+  }
+}
+@media (max-width: 350px) {
+  .button-store {
+    display: block;
+    width: 180px;
+    font-size: 80%;
+    height: 30px;
+    line-height: 30px;
+   }
+  .button-store.-second {
+    width: 180px;
+    line-height: 26px;
+    margin-bottom: 10px;
+  }
+}
