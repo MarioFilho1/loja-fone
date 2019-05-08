@@ -87,23 +87,3 @@
     display: none;
   }
 }
-/* Utilizando o text-align:justify não precisou das linha */
-
-/* @media (max-width: 470px) {
-  .header-store .action {
-    margin-right: 15px;
-  }
-}
-@media (max-width: 385px) {
-  .header-store {
-    padding-left: 16px;
-  }
-  .header-store .action {
-    margin-right: 8px;
-  }
-}
-@media (max-width: 340px) {
-  .header-store > .navigation {
-    display: none;
-  }
-} */
