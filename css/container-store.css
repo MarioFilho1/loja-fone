@@ -17,6 +17,12 @@
     max-width: 100%;
   }
 }
+@media (max-width: 1335px) {
+  .container-store {
+    padding-right: 0;
+  }
+}
+
 @media (max-height: 930px) {
   .container-store {
     max-width: 1330px;
@@ -25,12 +31,6 @@
     margin-right: auto;
   }
 }
-@media (max-width: 960px) {
-  .container-store {
-    padding-right: 5%;
-  }
-}
-
 @media (max-width: 480px) {
   .container-store {
     max-width: 480px;

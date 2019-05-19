@@ -61,30 +61,25 @@ O +.item indica que é o seletor item abaixo  */
   color: inherit;
   text-decoration: none;
 }
-@media (max-width: 1318px) {
+@media (max-width: 1239px) {
   .description-product > .item.-heart {
-    left: -20px;
+    /* left: 100px; */
+    display: none;
   }
-}
-@media (max-width: 1155px) {
-  .description-product > .item.-heart {
-    left: 297px;
-  }
-}
-@media (max-width: 530px) {
   .description-product > .title {
-    font-size: 22px;
+    font-size: 35px;
+    text-align: center;
   }
-  .description-product > .item {
-    font-size: 18px;
+}
+@media (max-width: 720px) {
+  .description-product > .title {
+    font-size: 30px;
   }
-  .description-product > .text {
-    font-size: 16px;
+  .description-product > .item.-star {
+    float: left;
+    margin-right: 4px;
   }
-  .description-product .icon {
-    transform: scale(0.9);
-  }
-  .description-product > .item.-heart {
-    left: 270px;
+  .description-product > .item.-star + .item {
+    padding-top: 4px;
   }
 }
