@@ -8,5 +8,5 @@ const $addButonCart = window.document.querySelector(".-second");
 $addButonCart.addEventListener("click", handleClickCart);
 
 function handleClickCart() {
-  console.log("Produto Adcionado");
+  alert("Produto Adcionado ao Carrinho");
 }
