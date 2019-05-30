@@ -39,9 +39,9 @@
 
 É uma liguagem de estilo, tem as seguintes responsabilidades:
 
-- Visual;
+- Visual e Animação;
 
-- `Float` - Usado para posicionar elementos na tela. Possui dois valores left e right. No exemplo abaixo queremos manter o posicionamento do elemento do `h1` a esqueda e posicionar o elemendo `a` para a direita, deixando os dois alinhados
+* `Float` - Usado para posicionar elementos na tela. Possui dois valores left e right. No exemplo abaixo queremos manter o posicionamento do elemento do `h1` a esqueda e posicionar o elemendo `a` para a direita, deixando os dois alinhados
 
 ```
 header{
@@ -176,6 +176,28 @@ Ex. `transition: backgroud-color 1s linear, color 2s linear` - Nesse caso a prop
 
   - Ser uma elemento com propriedade `block`
   - Ter uma largura definida
+
+# JavaScript
+
+- Responsável pela parte do comportamento e interação do usuário.
+
+### Alguns Comandos:
+
+`window` : refere-se a da janela do browser. Todo recurso do browser esta nesse comando
+
+`.(ponto)`: Significa que queremos utilizar algum recurso. ex: pegar alguma coisa em algum lugar da janela.
+
+`document`: Quando queremos buscar algo no html
+
+`queryselector`: seleciona o seletor no html
+
+Quando utilizamos uma variavel que guarda uma referência ou qualquer informação do html, usamos o `$` antes da variavel. Isso dá uma maior legibilidade ao código.
+
+`addEventListener`: Adiciona um ouvinte de um evento.
+ex. `addEventListener("click")` adiciona o `click`
+como evento
+
+#
 
 # UX
 

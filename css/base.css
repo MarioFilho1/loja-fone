@@ -1,5 +1,8 @@
-.base {
-  background-image: linear-gradient(to top, #ff2e63, #252a34);
-  background-size: 100% 1200px;
-  background-repeat: repeat-y;
+html,
+body {
+  height: 100%;
+}
+body {
+  background-color: #252a34;
+  background-image: linear-gradient(to bottom, #ff2e63, #252a34);
 }
