@@ -13,11 +13,20 @@
   left: -47px;
   top: 8px;
   cursor: pointer;
+  border: 10px solid #e24647;
+}
+.description-product > .item.-active {
+  background-color: #fff;
+  height: 29px;
 }
 .description-product > .item.-star {
   margin-bottom: 10px;
   cursor: pointer;
 }
+/* .description-product .icon.-active {
+  background-color: #fff;
+  background-image: url(../img/star_active.png);
+} */
 /* Coloca uma margem entre as estrelas */
 .description-product > .item.-star .icon {
   margin-right: 4.05px;
