@@ -23,9 +23,10 @@
   margin-bottom: 10px;
   cursor: pointer;
 }
+/* colocar cor branca na estrela quando a classe é ativada */
 /* .description-product .icon.-active {
-  background-color: #fff;
-  background-image: url(../img/star_active.png);
+  opacity: 0;
+  background-image: url(/img/star_active.png);
 } */
 /* Coloca uma margem entre as estrelas */
 .description-product > .item.-star .icon {
