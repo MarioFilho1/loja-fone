@@ -4,5 +4,6 @@ body {
 }
 body {
   background-color: #252a34;
-  background-image: linear-gradient(to bottom, #ff2e63, #252a34);
+  background-image: linear-gradient(to top, #ff2e63, #252a34);
+  background-size: 1200px; /*com essa linha o a cor do fundo não repete. Só vai começar a repeti quando a altura for maior que 1200px*/
 }

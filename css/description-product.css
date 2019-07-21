@@ -13,32 +13,37 @@
   left: -47px;
   top: 8px;
   cursor: pointer;
-  border: 10px solid #e24647;
-}
-.description-product > .item.-active {
-  background-color: #fff;
   height: 29px;
 }
 .description-product > .item.-star {
   margin-bottom: 10px;
   cursor: pointer;
 }
-/* colocar cor branca na estrela quando a classe é ativada */
-/* .description-product .icon.-active {
-  opacity: 0;
-  background-image: url(/img/star_active.png);
-} */
 /* Coloca uma margem entre as estrelas */
 .description-product > .item.-star .icon {
   margin-right: 4.05px;
 }
+
 .description-product .icon {
   transition: 100ms transform linear;
 }
 .description-product .icon:hover {
-  transform: scale(1.2);
+  transform: scale(1.1);
 }
-
+/* Ativa e desativa o coração */
+.description-product .icon.-active {
+  display: none;
+}
+.description-product > .item.-active .icon {
+  display: none;
+}
+.description-product > .item.-active .icon.-active {
+  display: block;
+}
+/* Estrela uma ao lado da outra */
+.description-product .star {
+  display: inline-block;
+}
 /* Esse seletor aplica uma margem no elemento logo abaixo do item star
 O +.item indica que é o seletor item abaixo  */
 .description-product > .item.-star + .item {
@@ -71,10 +76,19 @@ O +.item indica que é o seletor item abaixo  */
   color: inherit;
   text-decoration: none;
 }
+/* Ativa e desativa as estrelas */
+.description-product .star.-active > .icon {
+  display: none;
+}
+.description-product .star.-active > .-active {
+  display: block;
+}
+/* Parte que cuida da responsividade da página */
+
 @media (max-width: 1239px) {
   .description-product > .item.-heart {
-    /* left: 100px; */
-    display: none;
+    top: 116px;
+    left: 147px;
   }
   .description-product > .title {
     font-size: 35px;
@@ -85,11 +99,16 @@ O +.item indica que é o seletor item abaixo  */
   .description-product > .title {
     font-size: 30px;
   }
-  .description-product > .item.-star {
+  /* .description-product > .item.-star {
     float: left;
     margin-right: 4px;
   }
   .description-product > .item.-star + .item {
     padding-top: 4px;
+  } */
+}
+@media (max-width: 325px) {
+  .description-product > .title {
+    font-size: 28px;
   }
 }

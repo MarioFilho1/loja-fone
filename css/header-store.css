@@ -27,9 +27,9 @@
   margin-right: 65px;
   vertical-align: bottom;
 }
-.header-store [type="search"] ::placeholder {
+/* .header-store [type="search"] ::placeholder {
   color: inherit;
-}
+} */
 .header-store .action {
   display: inline-block;
   color: inherit;
@@ -56,6 +56,9 @@
 .header-store .action:hover::after {
   transform: scaleX(1);
 }
+
+/* Parte que cuida da responsividade da página */
+
 @media (max-width: 1335px) {
   .header-store {
     padding-right: 60px;

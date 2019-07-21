@@ -1,4 +1,4 @@
-let varInicial = 0;
+let varInicial = 10;
 const $buttonsecond = document.querySelector(".-second");
 $buttonsecond.addEventListener("click", handleClickButtonCar);
 const $car = document.querySelector(".-last");
