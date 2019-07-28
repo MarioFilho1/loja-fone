@@ -170,6 +170,8 @@ Ex. `transition: all 200ms linear;` - Vai analisar qualquer propriedade que tenh
 
 Ex. `transition: backgroud-color 1s linear, color 2s linear` - Nesse caso a propriedade que sofrerá alteração será a cor de fundo e a cor do texto. O tempo de transição de uma cor para a outra será de 1 e 2 segundos para o fundo e a cor respectivamente. Lembrando que você pode ir até o console e manipular a curva de bazier.
 
+`transition`
+
 - `Margin: auto`
 
   Essa propriedade facilita na centralização de elementos no eixo x(horizontal). Para utilizarmos o elemento precisa ter duas caracteristicas:

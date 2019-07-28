@@ -95,6 +95,8 @@ O +.item indica que é o seletor item abaixo  */
     text-align: center;
   }
 }
+@media (max-width: 977px) {
+}
 @media (max-width: 720px) {
   .description-product > .title {
     font-size: 30px;
