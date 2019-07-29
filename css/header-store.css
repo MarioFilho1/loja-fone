@@ -92,7 +92,6 @@
     color: #000;
     transform: translateX(-88%);
     cursor: pointer;
-    transition: transform 200ms linear;
   }
   .header-store .-active[type="search"] {
     transform: translateX(0%);
@@ -107,12 +106,28 @@
     transform: translateX(-4%);
     transition: transform 200ms ease;
   }
-
-  .header-store .-active.icon-search {
+  .header-store .-active .icon-search {
+    transform: translateX(625%);
     transition: transform 200ms ease;
-    transform: translateX(625%) rotate(75deg);
   }
-
+  .header-store .icon-close {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 40px;
+    height: 40px;
+    transition: transform 700ms ease;
+    transform: translateX(800%);
+  }
+  .icon-close {
+    display: none;
+  }
+  .header-store .icons.-active > .icon-search {
+    display: none;
+  }
+  .header-store .icons.-active > .icon-close {
+    display: block;
+  }
   .header-store {
     padding-left: 5px;
     padding-right: 5px;
