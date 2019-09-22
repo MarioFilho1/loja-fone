@@ -87,27 +87,18 @@ O +.item indica que é o seletor item abaixo  */
 
 @media (max-width: 1239px) {
   .description-product > .item.-heart {
-    top: 116px;
-    left: 147px;
+    transform: none;
+    position: static;
   }
   .description-product > .title {
     font-size: 35px;
     text-align: center;
   }
 }
-@media (max-width: 977px) {
-}
 @media (max-width: 720px) {
   .description-product > .title {
     font-size: 30px;
   }
-  /* .description-product > .item.-star {
-    float: left;
-    margin-right: 4px;
-  }
-  .description-product > .item.-star + .item {
-    padding-top: 4px;
-  } */
 }
 @media (max-width: 325px) {
   .description-product > .title {

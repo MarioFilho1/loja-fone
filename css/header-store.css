@@ -15,22 +15,7 @@
   font-family: "Segoe UI", "Roboto", sans-serif;
   float: right;
 }
-.header-store [type="search"] {
-  background-color: transparent;
-  border: none;
-  border-bottom: 1px solid #fff;
-  color: inherit;
-  font-size: 20px;
-  font-family: Arial, "Roboro", sans-serif;
-  padding: 8px;
-  width: 358px;
-  margin-right: 65px;
-  vertical-align: bottom;
-}
-/* .header-store [type="search"] ::placeholder {
-  color: inherit;
-} */
-.header-store .action {
+/* .header-store .action {
   display: inline-block;
   color: inherit;
   text-decoration: none;
@@ -55,7 +40,7 @@
 }
 .header-store .action:hover::after {
   transform: scaleX(1);
-}
+} */
 
 /* Parte que cuida da responsividade da página */
 
@@ -78,75 +63,26 @@
     text-align: center;
   }
 }
-@media (min-width: 978px) {
-  .header-store .icon-search {
-    display: none;
-  }
-}
 @media (max-width: 977px) {
-  .header-store [type="search"] {
-    position: absolute;
-    top: 0;
-    left: 0;
-    background-color: #fff;
-    color: #000;
-    transform: translateX(-88%);
-    cursor: pointer;
-  }
-  .header-store .-active[type="search"] {
-    transform: translateX(0%);
-    transition: transform 200ms ease;
-  }
-  .header-store .icon-search {
-    position: absolute;
-    top: -5px;
-    left: 0px;
-    width: 50px;
-    height: 50px;
-    transform: translateX(-4%);
-    transition: transform 200ms ease;
-  }
-  .header-store .-active .icon-search {
-    transform: translateX(625%);
-    transition: transform 200ms ease;
-  }
-  .header-store .icon-close {
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    width: 40px;
-    height: 40px;
-    transition: transform 700ms ease;
-    transform: translateX(800%);
-  }
-  .icon-close {
-    display: none;
-  }
-  .header-store .icons.-active > .icon-search {
-    display: none;
-  }
-  .header-store .icons.-active > .icon-close {
-    display: block;
-  }
   .header-store {
     padding-left: 5px;
     padding-right: 5px;
   }
 }
-@media (max-width: 530px) {
+/* @media (max-width: 530px) {
   .header-store .action {
     text-align: justify;
     margin-right: 3%;
-  }
-  .header-store > .title {
-    font-size: 38px;
-  }
+  } */
+.header-store > .title {
+  font-size: 38px;
 }
-@media (max-width: 343px) {
-  .header-store > .navigation {
+
+/* @media (max-width: 345px) {
+  .header-store > .navigation .action {
     display: none;
   }
   .header-store {
     margin-bottom: 30px;
   }
-}
+} */

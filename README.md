@@ -22,6 +22,24 @@
 - `title` - Usada para colocar o título na aba da página
 - `body` - Destinada para envolver o conteúdo do documento ou página
 - `header` - Usada para colocar o cabeçalho da página
+- `form` - Tem por padrão o display block.
+- `input type = image` - O input image por ser um botão, ao ser clicado tenta enviar o conteúdo dele. No exemplo por estar envolvido pelo `form`, ele enviará o conteúdo do formulário. Para impedir esse evento padrão de recarregamento da página ao enviar o conteúdo de um formulário utilizamos o atributo `event.preventDefault` na função. Note que utilizamos `event` como parâmetro como mostrado na função abaixo:
+
+```
+html -
+<form>
+<input class="icon-search" type="image" src="img/search.svg" />
+</form>
+
+js -
+$iconSearch.addEventListener("click", event => {
+  event.preventDefault();
+  $inputSearch.classList.toggle("-active");
+});
+```
+
+O `preventDefalt` remove o comportamento padrão do browser que ao se clicar em um botão do formulário, ele tenta enviar para algum lugar e quando não tem um lugar definido ele dá um refresh na página.
+
 - `meta + charset` - Essa tag junto com o atributo são responsáveis por definir o padrão ASCII de caracteres que será utilizada pela nossa página, no caso a latina. Com isso o navegador poderá reconhecer os acentos e caracteres especiais padrão da lingua.
   Exemplo:
 
