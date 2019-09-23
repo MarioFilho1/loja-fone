@@ -1,5 +1,7 @@
-.menu > .content .action {
+.menu {
   display: inline-block;
+}
+.menu > .content .action {
   color: inherit;
   text-decoration: none;
   margin-right: 60px;
@@ -25,7 +27,10 @@
   transform: scaleX(1);
 }
 @media (max-width: 530px) {
-  .menu > .content .action {
+  .menu {
+    width: 90vw;
+  }
+  .menu .content .action {
     text-align: justify;
     margin-right: 3%;
   }
@@ -34,6 +39,7 @@
   .menu {
     position: absolute;
     top: 15px;
+    left: 85vw;
     cursor: pointer;
   }
   .menu > .-first {
@@ -57,7 +63,7 @@
     margin-top: 5px;
     width: 90vw;
     height: 150vw;
-    transform: translateX(-100vw);
+    transform: translateX(105vw);
     transition: transform 200ms linear;
     background-color: #fff;
     opacity: 0.8;
@@ -67,14 +73,14 @@
     padding-top: 10px;
     height: 150vw;
     margin-top: 5px;
-    transform: translateX(0vw);
+    transform: translateX(-65vw);
     transition: transform 200ms linear;
     box-shadow: 1px 1px 10px rgb(75, 71, 71);
   }
   .menu .content > .action {
     display: block;
     color: #000;
-    transform: translateX(-0vw);
+    transform: translateX(100vw);
     transition: transform 200ms linear;
   }
   .menu .content.-active > .action {

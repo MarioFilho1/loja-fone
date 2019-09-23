@@ -69,15 +69,15 @@
     padding-right: 5px;
   }
 }
-/* @media (max-width: 530px) {
-  .header-store .action {
+@media (max-width: 530px) {
+  /* .header-store .action {
     text-align: justify;
     margin-right: 3%;
-  } */
-.header-store > .title {
-  font-size: 38px;
+  }  */
+  .header-store > .title {
+    font-size: 38px;
+  }
 }
-
 /* @media (max-width: 345px) {
   .header-store > .navigation .action {
     display: none;
