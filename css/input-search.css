@@ -84,3 +84,8 @@
   .header-store .icons.-active > .icon-close {
     display: block;
   } */
+@media (max-width: 345px) {
+  .input-search {
+    display: none;
+  }
+}
