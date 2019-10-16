@@ -85,7 +85,11 @@
     display: block;
   } */
 @media (max-width: 345px) {
-  .input-search {
-    display: none;
+  .input-search > .content {
+    width: 70vw;
+  }
+  .input-search.-active {
+    transform: translateX(0%);
+    transition: transform 200ms ease;
   }
 }

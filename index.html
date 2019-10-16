@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="css/container-store.css" />
     <link rel="stylesheet" href="css/header-store.css" />
     <link rel="stylesheet" href="css/input-search.css" />
-    <link rel="stylesheet" href="css/menu.css" />
+    <!-- <link rel="stylesheet" href="css/menu.css" /> -->
     <link rel="stylesheet" href="css/photo-product.css" />
     <link rel="stylesheet" href="css/wrap-product.css" />
     <link rel="stylesheet" href="css/description-product.css" />
@@ -23,6 +23,7 @@
     <title>Loja de Fone</title>
   </head>
   <body class="base">
+    <div class="banner"></div>
     <div class="container-store">
       <header class="header-store">
         <h1 class="title">Logo</h1>
@@ -32,22 +33,25 @@
          --><input
               class="icon -search -active"
               type="image"
-              src="img/search.svg"
+              src="img/teste.svg"
             /><!--
-         --><input class="icon -close" type="image" src="img/close.svg" />
+         --><input class="icon -close" type="image" src="img/close4.svg" />
           </form>
-          <div class="menu">
-            <div class="element -first"></div>
-            <div class="element -second"></div>
-            <div class="element -third"></div>
-            <div class="content">
+          <ul id="menu" class="list">
+            <li class="item -menu"><a href="#menu" class="menu">Menu</a></li>
+            <!-- <li class="item -menu"><a href="#menu" class="menu">Menu</a></li> -->
+            <li class="item">
               <a class="action -active" href="#">Produtos</a>
+            </li>
+            <li class="item">
               <a class="action -active" href="http://collabcode.training"
                 >Serviços</a
               >
-              <a class="action -last -active" href="#">Carrinho (10)</a>
-            </div>
-          </div>
+            </li>
+            <li class="item -last">
+              <a class="action -active" href="#">Carrinho(10)</a>
+            </li>
+          </ul>
         </nav>
       </header>
       <figure class="photo-product">
@@ -131,9 +135,9 @@
           </button>
           <a class="button-store" href="comprar.html">Comprar</a>
         </div>
-      </section>
+      <!-- </section> -->
     </div>
-    <script src="js/menu.js"></script>
+    <script src="js/header-store.js"></script>
     <script src="js/input-search.js"></script>
     <script src="js/description-product.js"></script>
     <script src="js/home.js"></script>

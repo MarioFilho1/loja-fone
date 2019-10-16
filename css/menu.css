@@ -1,31 +1,3 @@
-.menu {
-  display: inline-block;
-}
-.menu > .content .action {
-  color: inherit;
-  text-decoration: none;
-  margin-right: 60px;
-  padding-bottom: 8px;
-  position: relative;
-}
-.menu > .content .action.-last {
-  margin-right: 0px;
-}
-.menu > .content .action::after {
-  content: "";
-  width: 100%;
-  height: 1px;
-  background-color: #fff;
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  transform-origin: left center;
-  transform: scaleX(0);
-  transition: 300ms transform linear;
-}
-.menu > .content .action:hover::after {
-  transform: scaleX(1);
-}
 @media (max-width: 530px) {
   .menu {
     width: 90vw;

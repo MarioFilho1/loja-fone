@@ -1,11 +1,20 @@
 .photo-product {
   background-color: #fff;
+  width: 547px;
   height: 574px;
   display: inline-block;
   vertical-align: middle;
   margin-right: 156px;
   border-top-right-radius: 150px;
   border-bottom-right-radius: 150px;
+}
+.photo {
+  padding-left: 51px;
+}
+@media (max-width: 1339px) {
+  .photo {
+    padding-left: 0;
+  }
 }
 @media (max-width: 1335px) {
   .photo-product {
@@ -14,6 +23,7 @@
 }
 @media (max-width: 1239px) {
   .photo-product {
+    width: 100%;
     display: block;
     margin-right: 0;
     margin-bottom: 30px;
