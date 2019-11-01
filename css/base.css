@@ -5,26 +5,14 @@ body {
 body {
   background-color: #252a34;
   background-image: linear-gradient(to top, #ff2e63, #252a34);
-  background-size: 1200px; /*com essa linha o a cor do fundo não repete. Só vai começar a repeti quando a altura for maior que 1200px*/
+  background-repeat: no-repeat;
 }
-.banner {
-  width: 473px;
-  height: 574px;
-  background-color: #fff;
-  position: absolute;
-  top: 230px;
-  left: 0;
-}
-@media (min-width: 2260px) {
-  .banner {
-    width: 50%;
+@media (max-height: 940px) {
+  body {
+    background-image: linear-gradient(to top, #252a34, #252a34);
   }
 }
-@media (max-width: 1465px) {
-  .banner {
-    display: none;
-  }
-}
+
 @media (max-width: 345px) {
   body {
     overflow-x: hidden;

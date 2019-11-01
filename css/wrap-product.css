@@ -9,7 +9,7 @@
   bottom: 0;
   transform: translateY(calc(100% + 98px));
 }
-@media (max-width: 1239px) {
+@media (max-width: 1260px) {
   .wrap-product {
     display: block;
     margin-left: auto;

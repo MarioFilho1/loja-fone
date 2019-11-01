@@ -222,3 +222,32 @@ como evento
 # UX
 
 - Affordance - Diz-se que um elemento tem um bom affordance quando ele for fácil de usar e intuitivo.
+
+# GIT
+
+```
+COMANDOS:
+`rm -r nome do arquivo` - Deleta a pasta de forma recursiva.
+
+cp -r lojafone mariofilho1.github.oi/. - copia todos os arquivos e pastas
+que estão na pasta lojafone para pasta mariofilho1. o (.)ponto diz que vai copiar para a pasta raiz.
+```
+
+Como fazer o Deploy:
+
+1-Cria-se um novo repositório no github
+
+2-Depois abre-se o terminal e clona o repositório criado.  
+`git clone git@github.com:MarioFilho1/mariofilho1.github.io.git`
+
+3-Entra na pasta clonada:  
+`cd username.github.oi`
+
+4-Cria um arquivo index:  
+`echo "hello world" > index.html` (Pega o texto e coloca dentro do arquivo index.html)
+
+5- add, commit and push your changes:
+
+`git add --all` - Adciona todos os arquivos  
+`git commit -m "titulo"` - commit inicial  
+`git push -u origin master` - envia o arquivo para o github, a primeira vez utiliza o - u origin master - (pega do origem e joga no master).

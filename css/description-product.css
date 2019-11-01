@@ -85,7 +85,7 @@ O +.item indica que é o seletor item abaixo  */
 }
 /* Parte que cuida da responsividade da página */
 
-@media (max-width: 1239px) {
+@media (max-width: 1260px) {
   .description-product > .item.-heart {
     transform: none;
     position: static;
